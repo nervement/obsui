@@ -62,7 +62,7 @@ local ThemeManager = {
             { 
                 FontColor = "e0e0e0",
                 MainColor = "2a2a2c",
-                AccentColor = "d4af37",
+                AccentColor = "d7dce6",
                 BackgroundColor = "1e1e20",
                 OutlineColor = "3d3d40",
                 BackgroundImage = "",
