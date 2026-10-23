@@ -57,17 +57,17 @@ local ThemeManager = {
     ContrastWasPoor = false,
 
     BuiltInThemes = {
-        ["Default"] = {
-            1,
-            {
-                FontColor       = "ffffff",
-                MainColor       = "111111",
-                AccentColor     = "ffffff",
-                BackgroundColor = "000000",
-                OutlineColor    = "333333",
-                BackgroundImage = "",
-            },
-        },
+	["Default"] = {
+	    1,
+	    { 
+	       FontColor = "413c37",          -- 65, 60, 55 (Тёмно-серый)
+ 	       MainColor = "ffffff",          -- 255, 255, 255 (Белый)
+ 	       AccentColor = "d4af37",        -- 212, 175, 55 (Золото)
+	        BackgroundColor = "f2efe9",    -- 242, 239, 233 (Молочный)
+	        OutlineColor = "dcd7cd",       -- 220, 215, 205 (Мягкая обводка)
+        BackgroundImage = "",
+    },
+},
         ["BBot"] = {
             2,
             { FontColor = "ffffff", MainColor = "1e1e1e", AccentColor = "7e48a3", BackgroundColor = "232323", OutlineColor = "141414", BackgroundImage = "" },
